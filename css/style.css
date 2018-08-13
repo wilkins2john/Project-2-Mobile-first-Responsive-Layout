@@ -1,15 +1,98 @@
+/* Web font */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
+/* Main CSS */
 
-html {
+*{
     box-sizing: border-box;
+}
+
+body {
+    background: #DfDfDf;
     font-family: 'Roboto', sans-serif;
 }
 
-/* ===========================
-    Media Queries
-============================== */
+img {
+    max-width: 100%;
+}
 
-@media (min-width: 320px) {
+.name {
+    font-family: 'Raleway', sans-serif;
+    color: crimson;
+}
 
+h3,
+h2 {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    border: solid red 1px;
+}
+
+a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+/* class */
+
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.name {
+    font-size: 2em;
+    text-align: center;
+}
+
+.nav {
+    font-size: 0.96em;
+    text-align: center;
+}
+
+.nav li {
+    display: list-item;
+    background: lightgrey;
+    margin: 5px;
+    padding: 0.85em;
+}
+
+.profile-photo {
+    width: 70%;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.portfolio {
+    background: white;
+    padding-top: 1em;
+}
+
+.portfolio h2 {
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.portfolio h3 {
+    font-size: 1em;
+}
+
+.portfolio p {
+    padding-bottom: 1em;
 }
