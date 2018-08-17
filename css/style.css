@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-/* Main CSS */
 
 *{
     box-sizing: border-box;
@@ -17,11 +16,6 @@ img {
     max-width: 100%;
 }
 
-.name {
-    font-family: 'Raleway', sans-serif;
-    color: crimson;
-}
-
 h3,
 h2 {
     font-size: 1em;
@@ -33,7 +27,6 @@ a {
     text-transform: uppercase;
     padding: 10px;
     margin: 10px;
-    border: solid red 1px;
 }
 
 a:hover {
@@ -50,6 +43,8 @@ a:hover {
 }
 
 .name {
+    font-family: 'Raleway', sans-serif;
+    color: crimson;
     font-size: 2em;
     text-align: center;
 }
@@ -95,4 +90,139 @@ a:hover {
 
 .portfolio p {
     padding-bottom: 1em;
+}
+
+.contact {
+    padding: 5em;
+    text-align: center;
+}
+
+.contact h3 {
+    padding-bottom: 1em;
+}
+
+.footer-nav {
+    border-top: solid gray 2px;
+    margin: 0 10px;
+}
+
+.footer-name {
+    float: left;
+}
+ 
+.top {
+    float: right;
+}
+
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    
+    .nav li  {
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .name {
+        padding: 1em;
+        font-size: 1.6em;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .col {
+        width: 50%;
+        float: left;
+        padding: 1em;
+        margin: auto;
+    }
+
+    .portfolio {
+        padding: 1em;
+    }
+
+    .profile {
+        padding-bottom: 3em;
+    }
+
+    .profile-photo {
+        float: right;
+        width: 40%;
+        padding-left: 1em;
+    }
+
+    .intro {
+        text-align: left;
+        line-height: 1.55em;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .hidden-nav {
+        display: inline-block;
+        float: right;
+      }
+    }
+    
+    .hidden-nav li {
+      float: left;
+      padding-top: 1em;
+    }
+
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+      font-size: 1.5em;
+    }
+    .intro {
+      float: left;
+      width: 50%;
+    }
+    .profile-photo {
+      width: 40%;
+      float: right;
+    }
+    .name {
+      font-size: 1.5em;
+      float: left;
+    }
+    .profile {
+      padding: 1em;
+    }
+    .nav {
+      float: right;
+      padding-top: 2em;
+      margin-right: 0;
+    }
+    .project {
+      width: 32%;
+    }
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 }

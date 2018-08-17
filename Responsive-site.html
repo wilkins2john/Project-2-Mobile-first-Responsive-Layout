@@ -9,11 +9,11 @@
 </head>
     
 <body>
-        <header id="top" class="main-header">
+        <header id="top" class="main-header clearfix">
             <div class="container">
                 <h1 class="name">John Wilkins II</h1>
                 <nav class="main-nav">
-                    <ul>
+                    <ul class="nav clearfix">
                         <li><a href="#">Home</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -54,7 +54,7 @@
                         <p>This project compares travel times based on different transportation methods and tells you the best one..</p>
                     </div>
 
-                    <div class="">
+                    <div class="col">
                         <img src="images/portfolio-4.png" alt="image of marketing page">
                         <h3>Map of Favorite Spots</h3>
                         <p>This project uses mapping apis to plot points for my favorite spots in the city for a do it yourself walking tour.</p>
@@ -77,15 +77,24 @@
         
         <footer>
         <div id="contact">
-            <h3>Contact</h3>
-            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-            <p>Phone: (910) 676-6041</p>
-            <p>Email: <a href="mailto: wilkins2john@hotmail.com">Wilkins2john@hotmail.com</a></p>
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+                <p>Phone: (910) 676-6041</p>
+                <p>Email:<a href="mailto:wilkins2john@hotmail.com"> Wilkins2john@hotmail.com</a></p>
+            </div>
         </div>
         
-        <h4>John Wilkins II</h4>
-        <a class="" href="#">Back to top</a>
+        <div class="footer-nav">
+            <h4 class="footer-name">John Wilkins II</h4>
+            <a class="top" href="#">Back to top</a>
+            <ul class="hidden-nav ">
+                <li><a href="#">Home</a></li>
+                <li><a href="#main">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+        </div>
         </footer> 
-    </div>  
+    
 </body>
 </html>
