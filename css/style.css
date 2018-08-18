@@ -200,7 +200,7 @@ a:hover {
     }
     .intro {
       float: left;
-      width: 50%;
+      width: 40%;
     }
     .profile-photo {
       width: 40%;
@@ -211,14 +211,14 @@ a:hover {
       float: left;
     }
     .profile {
-      padding: 1em;
+      padding-bottom: 5em;
     }
     .nav {
       float: right;
       padding-top: 2em;
       margin-right: 0;
     }
-    .project {
+    .col {
       width: 32%;
     }
     .clearfix:after {
