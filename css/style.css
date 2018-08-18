@@ -191,9 +191,10 @@ a:hover {
         display: table;
         clear: both;
     }
-}
 
-@media (min-width: 1024px) {
+
+    @media (min-width: 1024px) {
+
     p {
       font-size: 1.5em;
     }
@@ -225,4 +226,5 @@ a:hover {
       display: table;
       clear: both;
     }
+
 }
